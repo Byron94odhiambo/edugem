@@ -41,8 +41,8 @@ ARCore Integration: Incorporate AR experiences for subjects like science and his
 - Submit: Publish the app and submit it to the competition, highlighting its innovation, usefulness, and impact on education.
 
 ### Tips for Winning
-Innovation: Emphasize how your app brings a new approach to personalized learning using AI.
-Usefulness: Demonstrate the tangible benefits for students, teachers, and parents, and how the app improves educational outcomes.
-Creativity: Showcase unique features like AR-based learning experiences and AI-driven tutoring sessions.
-Execution: Ensure your app is well-designed, user-friendly, and free of bugs. Pay attention to detail in both functionality and aesthetics.
-Impact: Highlight how your app addresses critical educational challenges and contributes to better learning experiences and outcomes.
+- Innovation: Emphasize how your app brings a new approach to personalized learning using AI.
+- Usefulness: Demonstrate the tangible benefits for students, teachers, and parents, and how the app improves educational outcomes.
+- Creativity: Showcase unique features like AR-based learning experiences and AI-driven tutoring sessions.
+- Execution: Ensure your app is well-designed, user-friendly, and free of bugs. Pay attention to detail in both functionality and aesthetics.
+- Impact: Highlight how your app addresses critical educational challenges and contributes to better learning experiences and outcomes.
