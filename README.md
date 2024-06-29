@@ -30,10 +30,10 @@ Create customized learning plans that adapt based on the student's progress and 
 
 ## Technical Implementation
 
-Frontend: Develop the app using React and Material-UI for a modern, responsive user interface.
-Backend: Use Firebase for real-time database management, authentication, and cloud functions.
-AI Integration: Leverage the Gemini API to power AI-driven features like personalized learning paths, interactive tutoring, and content generation.
-ARCore Integration: Incorporate AR experiences for subjects like science and history to create immersive learning environments.
+- Frontend: Develop the app using React and Material-UI for a modern, responsive user interface.
+- Backend: Use Firebase for real-time database management, authentication, and cloud functions.
+- AI Integration: Leverage the Gemini API to power AI-driven features like personalized learning paths, interactive tutoring, and content generation.
+- ARCore Integration: Incorporate AR experiences for subjects like science and history to create immersive learning environments.
 
 ### Submission Strategy
 - Build the App: Focus on creating a polished, bug-free application with high-quality UI/UX.
