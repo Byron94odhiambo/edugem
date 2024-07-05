@@ -34,6 +34,8 @@ Create customized learning plans that adapt based on the student's progress and 
 - Backend: Use Firebase for real-time database management, authentication, and cloud functions.
 - AI Integration: Leverage the Gemini API to power AI-driven features like personalized learning paths, interactive tutoring, and content generation.
 - ARCore Integration: Incorporate AR experiences for subjects like science and history to create immersive learning environments.
+- 
+  ## Roadmap
 - [TODO] - Define Objectives and Requirements
 - [TODO] - Set Up Development Environment
 - [TODO] - Design and Prototyping
