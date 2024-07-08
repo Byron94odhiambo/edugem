@@ -1,18 +1,22 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:edugem/auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'screens/welcome_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  runApp(EduGemApp());
 }
 
-class MyApp extends StatelessWidget {
+class EduGemApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AuthScreen(),
+      title: 'EduGem',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: WelcomeScreen(),
     );
   }
 }
