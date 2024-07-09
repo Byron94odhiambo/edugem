@@ -1,21 +1,28 @@
 class UserModel {
-  final String uid;
+  final String id;
+  final String name;
   final String email;
-  final String role;
+  final String role; // parent, teacher, student
 
-  UserModel({required this.uid, required this.email, required this.role});
+  UserModel(
+      {required this.id,
+      required this.name,
+      required this.email,
+      required this.role});
 
-  factory UserModel.fromMap(Map<String, dynamic> data) {
+  factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
-      uid: data['uid'],
-      email: data['email'],
-      role: data['role'],
+      id: json['id'],
+      name: json['name'],
+      email: json['email'],
+      role: json['role'],
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
-      'uid': uid,
+      'id': id,
+      'name': name,
       'email': email,
       'role': role,
     };
