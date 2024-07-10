@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/book_list_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(EduGemApp());
@@ -13,7 +13,8 @@ class EduGemApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BookListScreen(),
+      home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

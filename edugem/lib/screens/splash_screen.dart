@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
+import 'package:edugem/screens/book_list_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(Duration(milliseconds: 3000), () {});
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => HomeScreen()),
+      MaterialPageRoute(builder: (context) => BookListScreen()),
     );
   }
 
@@ -37,3 +37,5 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
+class HomeScreen {}
