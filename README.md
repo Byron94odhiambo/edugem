@@ -39,6 +39,8 @@ Create customized learning plans that adapt based on the student's progress and 
 - [TODO] - Define Objectives and Requirements
 - [TODO] - Set Up Development Environment
 - [TODO] - Design and Prototyping
+         - Develop wireframe in figma
+         - create user process flow 
 - [TODO] - Initial Development
 - [TODO] - API Integration
 - [TODO] - Advanced Features
