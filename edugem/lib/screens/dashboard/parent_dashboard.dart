@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 
 class ParentDashboard extends StatelessWidget {
+  const ParentDashboard({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Parent Dashboard'),
+        title: const Text('Parent Dashboard'),
         actions: [
           IconButton(
-            icon: Icon(Icons.logout),
+            icon: const Icon(Icons.logout),
             onPressed: () {
               // Add logout functionality
             },
           ),
         ],
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           children: [
             Text('Welcome, Parent!'),

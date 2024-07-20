@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import '../models/book.dart';
 
 class BookListScreen extends StatefulWidget {
+  const BookListScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _BookListScreenState createState() => _BookListScreenState();
 }
 
@@ -32,7 +35,7 @@ class _BookListScreenState extends State<BookListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Book List'),
+        title: const Text('Book List'),
       ),
       body: Column(
         children: [
@@ -46,14 +49,14 @@ class _BookListScreenState extends State<BookListScreen> {
                   subtitle: Text(book.author),
                   trailing: ElevatedButton(
                     onPressed: () => addToReadingList(book),
-                    child: Text('Add'),
+                    child: const Text('Add'),
                   ),
                 );
               },
             ),
           ),
-          Divider(),
-          Text(
+          const Divider(),
+          const Text(
             'Reading List',
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
@@ -67,7 +70,7 @@ class _BookListScreenState extends State<BookListScreen> {
                   subtitle: Text(book.author),
                   trailing: ElevatedButton(
                     onPressed: () => removeFromReadingList(book),
-                    child: Text('Remove'),
+                    child: const Text('Remove'),
                   ),
                 );
               },

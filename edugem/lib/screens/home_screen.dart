@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'book_list_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('EduGem Home'),
+        title: const Text('EduGem Home'),
       ),
       body: Center(
         child: Column(
@@ -16,24 +18,25 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => BookListScreen()),
+                  MaterialPageRoute(
+                      builder: (context) => const BookListScreen()),
                 );
               },
-              child: Text('View Book List'),
+              child: const Text('View Book List'),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 // Navigate to another screen if needed
               },
-              child: Text('User Profile'),
+              child: const Text('User Profile'),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 // Navigate to another screen if needed
               },
-              child: Text('Settings'),
+              child: const Text('Settings'),
             ),
           ],
         ),
