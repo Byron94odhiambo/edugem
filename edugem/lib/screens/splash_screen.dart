@@ -13,21 +13,46 @@ class SplashScreen extends StatelessWidget {
           children: <Widget>[
             const Text(
               'Welcome to EduGem AI',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white), // Set text color to white for contrast
+              style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white), // Set text color to white for contrast
             ),
-            const SizedBox(height: 30),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/login');
-              },
-              child: const Text('Login'),
+            const SizedBox(height: 20),
+            const Text(
+              'Your personalized learning companion. Get started by logging in or registering an account.',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white), // Set text color to white for contrast
+            ),
+            const SizedBox(height: 20),
+            SizedBox(
+              width: 200, // Set a fixed width for the buttons
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/login');
+                },
+                child: const Text(
+                  'Login',
+                  style: TextStyle(
+                    color: Colors.blue,
+                  ),
+                ),
+              ),
             ),
             const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/register');
-              },
-              child: const Text('Register'),
+            SizedBox(
+              width: 200, // Set a fixed width for the buttons
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/register');
+                },
+                child: const Text('Register',
+                    style: TextStyle(
+                      color: Colors.blue,
+                    )),
+              ),
             ),
           ],
         ),
